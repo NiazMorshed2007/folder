@@ -1,0 +1,14 @@
+@import 'mixin';
+@import 'loader';
+@import 'container';
+@import 'nav';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Righteous', sans-serif;
+    overflow: hidden;
+}

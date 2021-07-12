@@ -1,0 +1,20 @@
+@mixin flex($direction) {
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin beforeAnim {
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+@mixin afterAnim {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+@mixin insideAnim {
+    transform: translateX(-50px);
+    opacity: 0;
+}

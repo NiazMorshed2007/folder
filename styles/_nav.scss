@@ -1,0 +1,25 @@
+.nav {
+    position: fixed;
+    z-index: 100;
+    //     background-color: silver;
+    bottom: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @include flex(row);
+    gap: 2em;
+    .index {
+        transition: all .2s ease-in-out;
+        padding: 10px;
+        border-radius: 50%;
+        div {
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: silver;
+            padding: 0;
+        }
+    }
+    .index-active {
+        border: 2px solid silver;
+    }
+}
